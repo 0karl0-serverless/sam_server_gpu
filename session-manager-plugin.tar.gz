@@ -1,0 +1,9 @@
+--2025-08-31 20:20:17--  http://curl/
+Resolving curl (curl)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘curl’
+--2025-08-31 20:20:17--  https://s3.amazonaws.com/session-manager-downloads/plugin/latest/linux_amd64/session-manager-plugin.tar.gz
+Resolving s3.amazonaws.com (s3.amazonaws.com)... 16.182.64.248, 16.182.41.0, 52.217.167.8, ...
+Connecting to s3.amazonaws.com (s3.amazonaws.com)|16.182.64.248|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-08-31 20:20:17 ERROR 403: Forbidden.
+

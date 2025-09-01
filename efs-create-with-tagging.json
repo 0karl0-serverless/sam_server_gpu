@@ -1,0 +1,24 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    { "Sid": "EFSCore",
+      "Effect": "Allow",
+      "Action": [
+        "elasticfilesystem:CreateFileSystem",
+        "elasticfilesystem:CreateMountTarget",
+        "elasticfilesystem:CreateAccessPoint",
+        "elasticfilesystem:Describe*"
+      ],
+      "Resource": "*"
+    },
+    { "Sid": "EFSTagging",
+      "Effect": "Allow",
+      "Action": [
+        "elasticfilesystem:TagResource",
+        "elasticfilesystem:UntagResource",
+        "elasticfilesystem:ListTagsForResource"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
