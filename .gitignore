@@ -6,4 +6,6 @@
 *.heif
 *.instruction
 *.sh
-
+*.json
+*.deb
+*.gz
